@@ -8,7 +8,7 @@ import * as mml from "../buildMathML";
 
 defineFunction({
     type: "phantom",
-    names: "\\phantom",
+    names: ["\\phantom"],
     props: {
         numArgs: 1,
     },
